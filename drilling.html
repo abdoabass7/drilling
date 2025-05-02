@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>نموذج تسجيل طالب جامعي</title>
+</head>
+<body style="color: rgb(75, 95, 95);">
+    <h1 style="text-align: center; color: #2c3e50;">🎓 نموذج التسجيل الجامعي</h1>
+    
+    <form style="max-width: 800px; margin: 20px auto; padding: 20px;">
+        <!-- المعلومات الشخصية -->
+        <fieldset style="border: 2px solid #3498db; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+            <legend style="color: #3498db; font-weight: bold; padding: 0 10px;">المعلومات الشخصية</legend>
+            
+            <div style="margin-bottom: 15px;">
+                <label>الاسم الكامل:</label>
+                <input type="text" required style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label>اسم الأب:</label>
+                <input type="text" required style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label>اسم الأم:</label>
+                <input type="text" required style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label>الجنس:</label>
+                <select required style="width: 100%; padding: 8px; margin: 5px 0;">
+                    <option value="">اختر...</option>
+                    <option>ذكر</option>
+                    <option>أنثى</option>
+                </select>
+            </div>
+            
+            <div>
+                <label>الرقم الجامعي:</label>
+                <input type="number" required style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+        </fieldset>
+
+        <!-- معلومات الاتصال -->
+        <fieldset style="border: 2px solid #e67e22; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+            <legend style="color: #e67e22; font-weight: bold; padding: 0 10px;">معلومات الاتصال</legend>
+            
+            <div style="margin-bottom: 15px;">
+                <label>رقم الهاتف:</label>
+                <input type="tel" required style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label>البريد الإلكتروني:</label>
+                <input type="email" required style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label>العنوان:</label>
+                <input type="text" required style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label>البلد:</label>
+                <input type="text" required style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+            
+            <div>
+                <label>المدينة:</label>
+                <input type="text" required style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+        </fieldset>
+
+        <!-- معلومات الدراسة -->
+        <fieldset style="border: 2px solid #27ae60; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
+            <legend style="color: #27ae60; font-weight: bold; padding: 0 10px;">معلومات الدراسة</legend>
+            
+            <div style="margin-bottom: 15px;">
+                <label>الفرع:</label>
+                <select required style="width: 100%; padding: 8px; margin: 5px 0;">
+                    <option value="">اختر التخصص...</option>
+                    <option>هندسة الحاسوب</option>
+                    <option>الطب البشري</option>
+                    <option>إدارة الأعمال</option>
+                </select>
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label>المعدل الإجمالي:</label>
+                <input type="number" step="0.01" required style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label>معدل الثانوية:</label>
+                <input type="number" step="0.01" required style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+            
+            <div>
+                <label>مصدر الشهادة الثانية:</label>
+                <input type="text" style="width: 100%; padding: 8px; margin: 5px 0;">
+            </div>
+        </fieldset>
+
+        
+        <button type="submit" style="background: #2ecc71; color: white; padding: 12px 30px; border: none; border-radius: 25px; display: block; margin: 0 auto;">
+            إرسال الطلب
+        </button>
+    </form>
+</body>
+</html>
